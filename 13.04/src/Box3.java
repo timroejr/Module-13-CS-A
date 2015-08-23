@@ -1,6 +1,5 @@
 
 public class Box3 extends Rectangle3 {
-	// instance variables 
 	private int height;
 
 	/**
@@ -8,13 +7,10 @@ public class Box3 extends Rectangle3 {
 	 */
 	public Box3(int l, int w, int h)
 	{
-		// call superclass
 		super(l, w);
-	    // initialise instance variables
 		height = h;
 	}
 
-	// return the height
 	public int getHeight()
 	{
 		return height;

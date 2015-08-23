@@ -1,5 +1,4 @@
 public class Rectangle3 {
-	// instance variables 
 	private int length;
 	private int width;
 
@@ -8,12 +7,10 @@ public class Rectangle3 {
 	 */
 	public Rectangle3(int l, int w)
 	{
-		// initialise instance variables
 		length = l;
 		width = w;
 	}
 
-	// return the height
 	public int getLength()
 	{
 		return length;
